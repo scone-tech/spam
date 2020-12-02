@@ -31,11 +31,11 @@ class Payu:
 #		os.system('clear')
 		print("""
 		;;;;;;;;;;;;;;;;;;;;;;;;
-		; SMS Gratis PayuTerus ;
-		;      - noobie -      ;
+		; SMS Gratis Vazhdoni ;
+		;      - ScOnE -      ;
 		;;;;;;;;;;;;;;;;;;;;;;;;
 		""")
-		no=input('[?] Nomor Target: ')
+		no=input('[?] Numri Target: ')
 		psn=input('[info] shkruaj "\\ n" për rreshtin e ri në mesazh \ n [?] mesazh: ')
 		self.main(no,psn)
 
@@ -60,11 +60,11 @@ class Payu:
 try:
 	Payu()
 	while True:
-		plh=input("\n[?] coba lagi (y/n) ")
+		plh=input("\n[?] Provo përsëri (y/n) ")
 		if plh.lower() == 'y':
 			Payu()
 		elif plh.lower() == 'n':
-			exit('sampai jumpa lagi...')
+			exit('Shihemi perseri...')
 except KeyboardInterrupt:
 	print('\nErr: KeyboardInterrupt')
 except Exception as E:
