@@ -2,12 +2,12 @@ mport requests, time
 from random import randrange as rg
 
 print("""
-	[ SOCIOLLA OTP ]
-	   - noobie -
+	[ filma24 ai ]
+	   - scone -
 """)
 
-num=input("[In] Number: ")
-jum=int(input("[In] Jumlah: "))
+num=input("[In] Numri: ")
+jum=int(input("[In] Shuma: "))
 
 if num[0] == "0":
         num=num[1:]
